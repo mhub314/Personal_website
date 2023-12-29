@@ -1,0 +1,165 @@
+* {
+    /* border: 1px solid red; */
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(252, 183, 183);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(252, 183, 183);
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    color: rgb(9, 9, 72);
+    font-size: 1.6em;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-link {
+    color: rgb(9, 9, 72);
+    font-size: 1.4em;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.title {
+    margin-left: 300px;
+    padding-top: 100px;
+    color: navy;
+    height: 100px;
+}
+
+.txt {
+
+}
+
+.form-section {
+    height: 600px;
+    width: 100%;
+    margin-left: 300px;
+    padding-top: 40px;
+}
+
+.label {
+    height: 20px;
+    color: navy;
+}
+
+.input {
+    height: 30px;
+}
+
+.input2 {
+    height: 100px;
+    
+}
+
+.submit {
+    color: rgb(252, 183, 183);
+    background-color: navy;
+}
+
+.home-link {
+    color: green;
+    font-size: 0.7em;
+}
+
+.reach {
+    margin-top: -600px;
+    color: navy;
+}
+
+.lower-txt {
+    margin-left: 750px;
+}
+
+.lower-input {
+    margin-left: 750px;
+}
+
+/* .lower-label {
+    margin-left: 750px;
+} */
+
+
+
+/* 
+<section class="title">
+    <h3 class="txt">Reach out to me!</h3>
+</section>
+
+<section class="form-section">
+    <form class="form">
+        <label class="label">Full Name:</label><br>
+        <input class="input" type="text" id="fullname" placeholder=""><br>
+        <label class="label">Email:</label><br>
+        <input class="input" type="text" id="email" placeholder=""><br>
+        <label class="label">Cell Number:</label><br>
+        <input class="input" type="text" id="cell" placeholder=""><br>
+        <label class="label">Leave me a message:</label><br>
+        <input class="input2" type="text" id="message" placeholder=""><br>
+        <button class="submit">Submit!</button>
+        <a href="index.html" class="home-link">Click Me to go Home.</a><br>
+        
+    </form>   
+</section>
+
+<section class="reach">
+    <h3 class="lower-txt">Best way to reach back out to you?</h3>
+    <form>
+        <input class="lower-input" type="checkbox" id="text" name="text" value="cell">
+        <label class="lower-label" for="text"> Text</label><br>
+        <input class="lower-input" type="checkbox" id="call" name="call" value="call">
+        <label class="lower-label" for="call"> Call</label><br>
+        <input class="lower-input" type="checkbox" id="email" name="email" value="Boat">
+        <label class="lower-label" for="email"> Email</label>
+      </form>
+</section> */
